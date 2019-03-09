@@ -5,11 +5,11 @@
 ## Key contents
 ### Two key insights
 1. 使用CNN来localize和segment objects：one can apply high-capacity convolutional neural networks (CNNs) to bottom-up region proposals in order to localize and segment objects.
-2. 提出一个方法解决labeled data较少的问题：when labeled training data is scarce, supervised pre-training for an auxiliary task, followed by domain-specific fine-tuning, yields a significan performance boost. 首先针对一个有很多labeled traning data的辅助任务进行pre-training，然后再根据目标任务进行调整。
+2. 提出一个方法解决labeled data较少的问题：when labeled training data is scarce, supervised pre-training for an auxiliary task, followed by domain-specific fine-tuning, yields a significant performance boost. 首先针对一个有很多labeled traning data的辅助任务进行pre-training，然后再根据目标任务进行调整。
 
 ## Following the paper structure
 ### Abstract
-A simple and scalabel object detection algorithm.<br>
+A simple and scalable object detection algorithm.<br>
 Two key insights.
 
 ### 6. Conclusion

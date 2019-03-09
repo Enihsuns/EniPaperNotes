@@ -64,7 +64,7 @@ Region Proposal Network (RPN)
 
 首先，移去所有已经在positive chip selection中覆盖的proposal。然后，贪心选择至少覆盖了M个proposal的chips。这些chip组在一起，记作$C^i_{neg}$。
 
-Reduce FPs
+Reduce False Positives: 在已有的训练方法中不会存在FP过高的问题，因为所有的像素都被处理了。
 
 ## Basic concepts
 image pyramid
